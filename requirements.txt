@@ -82,7 +82,6 @@ packaging==21.3
 pandas==1.4.1
 pandocfilters==1.5.0
 parso==0.8.3
-pickleshare==0.7.5
 prompt-toolkit==0.2.5
 pyasn1-modules==0.4.8
 pydantic==4.2.0
