@@ -1,6 +1,6 @@
 import numpy as np
 import cv2
-import tensorflow as tf
+import keras
 
 """# define constant"""
 
@@ -14,7 +14,7 @@ face_cascade = cv2.CascadeClassifier('models/haarcascade_frontalface_default.xml
 """# Tồn tại khuôn mặt"""
 
 
-model = tf.keras.models.load_model(model_path)
+model = keras.models.load_model(model_path)
 def response(frame):
     """# Load model"""
     """# Dự đoán tuổi của ảnh upload
