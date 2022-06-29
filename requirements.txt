@@ -1,3 +1,4 @@
+pyqt5==12.11.0
 absl-py==1.1.0
 anyio==3.5.0
 argon2-cffi==21.3.0
